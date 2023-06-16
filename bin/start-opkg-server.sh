@@ -9,6 +9,7 @@ build_package_list()
 	find . -name Packages.gz -exec rm {} +
 	find . -name Packages.stamps -exec rm {} +
 
+	# see https://git.yoctoproject.org/opkg-utils/tree/opkg-make-index
 	/usr/bin/opkg-make-index . > Packages
 	gzip ./Packages
 

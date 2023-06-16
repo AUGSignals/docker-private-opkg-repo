@@ -1,4 +1,5 @@
 version: '3'
+name: ipk-server
 services:
   opkg-server:
     build: 

@@ -17,12 +17,14 @@ To run:
 docker-compose up -d
 ```
 
-Access the server at http://local-ip-or-hostname:PORT/.
+Place the `*.ipk` files in the `packages` directory.
+
+Access the server at http://local-ip-or-hostname:PORT/ (default: http://localhost:8080/).
 
 # What is it doing?
 See [start-opkg-server.sh](bin/start-opkg-server.sh) to see how the package generation works.  It will rebuild the package list at every startup. 
 
 # More info
-I largely followed this set of instructions and then dockerized it. https://jumpnowtek.com/yocto/Managing-a-private-opkg-repository.html
+I largely followed this set of instructions and then dockerized it. ~~https://jumpnowtek.com/yocto/Managing-a-private-opkg-repository.html~~ https://github.com/jumpnow/jumpnowtek-site/blob/jethro/_posts/2014-07-25-Managing-a-private-opkg-repository.md
 
 You'll obviously need a set of packages built in order to serve these. 
