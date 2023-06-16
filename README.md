@@ -1,3 +1,6 @@
+# SOURCE
+https://github.com/AUGSignals/docker-private-opkg-repo
+
 # OPKG Private Server
 
 A docker based opkg server for private use.  This is *not* firewalled and should not be exposed to the outside world without more security. I've been using this for OpenWRT packages, but this could be used for any opkg based system. 
@@ -28,3 +31,4 @@ See [start-opkg-server.sh](bin/start-opkg-server.sh) to see how the package gene
 I largely followed this set of instructions and then dockerized it. ~~https://jumpnowtek.com/yocto/Managing-a-private-opkg-repository.html~~ https://github.com/jumpnow/jumpnowtek-site/blob/jethro/_posts/2014-07-25-Managing-a-private-opkg-repository.md
 
 You'll obviously need a set of packages built in order to serve these. 
+
